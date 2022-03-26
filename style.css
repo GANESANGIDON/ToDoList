@@ -13,7 +13,7 @@
   --largeFont: 700 20px arial, sans-serif;
   --primaryBg: lightseagreen;
   --lightTxt: white;
-  --darkTxt: #121212;
+  --darkTxt: #161616;
   --bdrRadius: 3px;
 }
 
@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--primaryBg);
+  background-color: rgb(34, 138, 132);
 }
 
 /* app container */
@@ -32,7 +32,7 @@ body {
   padding: 20px 25px;
   border-radius: 10px;
   box-shadow: 0px 0px 5px grey;
-  background-color: aliceblue;
+  background-color: #ededed;
 }
 
 /* heading */
@@ -59,6 +59,7 @@ body {
   border: none;
   outline: none;
   border-radius: var(--bdrRadius);
+  background-color: #fbfbfb;
   box-shadow: 0px 0px 2px grey;
 }
 
@@ -157,7 +158,7 @@ li {
   color: var(--darkTxt);
   font: var(--mediumFont);
   box-shadow: inset 0px 0px 2px grey;
-  background-color: aliceblue;
+  background-color: #e4e4e4;
 }
 
 /* task text */
@@ -211,6 +212,28 @@ li {
   padding: 6px 10px;
   margin: 5px 0px;
 }
+
+/* footer section */
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  font: 500 12px arial, sans-serif ;
+  color: darkslategray;
+  text-align: center;
+  padding: 3px 0px;
+}
+
+/* footer link */
+footer a{
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+}
+
+footer a:hover{
+  color: teal;
+}
+
 
 /* ---------------------------------------------------- */
 @media(min-width: 481px) {
