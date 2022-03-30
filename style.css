@@ -111,6 +111,7 @@ body {
   color: var(--darkTxt);
   font: var(--mediumFont);
   font-weight: 600;
+  cursor: pointer;
 }
 
 .filter-btn.active {
